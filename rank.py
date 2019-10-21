@@ -10,6 +10,11 @@
 import random
 # 生成无序列表
 
+disorder_list = []
+for i in range(0,1000):
+    disorder_list.append(random.randint(1, 1000000))
+
+print(disorder_list)
 
 
 # 1.1 冒泡排序
